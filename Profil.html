@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    width: 50%;
+    width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    background-color: #828586;
+  }
+
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  .text {
+    margin-top: 10px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #828586; /* Warna latar belakang tombol */
+    color: #000; /* Warna teks tombol */
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="kopi.jpg" class="circle-image" alt="Gambar">
+  <div class="text">
+  <h2>RAHMAWATI</h2>
+  <p>Mahasiswa</p>
+  <p>sinjai</p>
+  <p>Email: rahmamappadara@gmail.com</p>
+  <p>Telpon: 085298973923</p>
+  <p>" Jangan Menyapa Jika Hanya Menaruh Luka!!! "</p>
+  </div>
+    <div>
+      <button onclick="goToIndex()">Pergi Ke Halaman Utama</button>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function goToIndex() {
+    window.location.href = "home.html";
+    }
+    </script>
